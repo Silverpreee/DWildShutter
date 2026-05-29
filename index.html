@@ -71,7 +71,7 @@ section{padding:7rem 0}
 
 /* GALLERY PREVIEW */
 .gallery{background:var(--forest)}
-.gallery-header{text-align:center;margin-bottom:4rem}
+.gallery-er{text-align:center;margin-bottom:4rem}
 .gallery-title{font-family:'Playfair Display',serif;font-size:clamp(2.5rem,5vw,4rem);font-weight:900;color:#fff;margin-bottom:.8rem}
 .gallery-grid{display:grid;grid-template-columns:repeat(12,1fr);gap:1rem}
 .gallery-item{overflow:hidden;position:relative;background:var(--moss)}
@@ -306,6 +306,38 @@ footer{border-top:1px solid rgba(122,182,72,.1);padding:2.5rem 0;text-align:cent
   .gallery-grid,.full-gallery-grid{columns:1;display:flex;flex-direction:column}
 }
 </style>
+  
+  <!-- SEO: Page description shown in Google search results -->
+<meta name="description" content="Singapore-based wildlife photographer capturing birds, reptiles, and nature across Bukit Timah, Southern Ridges, and beyond. Fine art prints and collaboration enquiries welcome.">
+
+<!-- SEO: Canonical URL — replace with your actual domain -->
+<link rel="canonical" href="https://d-wild-shutter.vercel.app/">
+
+<!-- SEO: Open Graph — controls how links look on Facebook, WhatsApp, etc. -->
+<meta property="og:title" content="DWildShutter | Wildlife & Nature Photographer in Singapore">
+<meta property="og:description" content="Capturing the fragile beauty of Singapore's wildlife. Fine art prints available.">
+<meta property="og:image" content="https://images.unsplash.com/photo-1448375240586-882707db888b?w=1200&q=80">
+<meta property="og:url" content="https://www.dwildshutter.com/">
+<meta property="og:type" content="website">
+
+<!-- SEO: Structured data — tells Google you're a photographer -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "DWildShutter",
+  "jobTitle": "Wildlife Photographer",
+  "url": "https://www.dwildshutter.com/",
+  "sameAs": [
+    "https://www.facebook.com/BDianne82",
+    "https://www.youtube.com/@DWildShutter"
+  ],
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "Singapore"
+  }
+}
+</script>
 </head>
 <body>
 
